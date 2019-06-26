@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <title>Poliana Lima</title>
+    <meta name="theme-color" content="#536878" />
+
+    <link href="assets/css/poliana_manifest.css" rel="stylesheet" async>
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="keywords" content="danza dance">
+    <meta name="description" content="Poliana Lima.">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Poliana Lima" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:description" content="Poliana Lima website." />
+    <meta property="og:site_name" content="Poliana Lima" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/loader.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700' rel='stylesheet' type='text/css'>
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="assets/css/fonts/fonts.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="loading ">
+        <div class="loading-container">
+            <p>Wait a moment, please.</p>
+            <div class="blobs">
+                <div class="blob_left"></div>
+                <div class="blob_right"></div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+                        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 17 -7" result="goo" />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+        <div class="container">
+            <div class="navbar-header">
+
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a href="index.html" class="navbar-toggle navbar-lang">ES</a>
+                <a href="/" class="navbar-brand">Poliana Lima</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                    <li class="social-links">
+                        <a target="_blank" rel="noopener" href="https://www.facebook.com/PolianaLimaCia/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a target="_blank" rel="noopener" href="https://www.youtube.com/user/2020poliana">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+
+                        <a target="_blank" rel="noopener" href="https://vimeo.com/160396785">
+                            <i class="fa fa-vimeo"></i>
+                        </a>
+                        <a target="_blank" rel="noopener" href="#" data-scroll="true" data-id="#contacto">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a target="_blank" rel="noopener" href="http://www.polianalima.com/blog/">
+                            <i class="fa fa-rss" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#filosofia">
+                            INTRODUCTION
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#creaciones">
+                            WORK
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#calendar">
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#biography">
+                            Biography
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#videos">
+                            Videos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#historia">
+                            bACKGROUND
+                        </a>
+                    </li>
+                    <!--
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#docencia">
+                            TEACHING
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#premios">
+                            PRIZES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#criticas">
+                            REVIEWS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#contacto">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-scroll="true" data-id="#colaboraciones">
+                            Collaborations
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="section section-header">
+            <div class="parallax">
+                <img alt="Poliana Lima" class="lazyload" src="assets/img/agency.jpg" />
+                <div class="container">
+                    <div class="content">
+                        <h1>Poliana Lima</h1>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <h5 class="italic">Choreographer and dancer</h5>
+                    </div>
+                </div>
+            </div>
+            <a href="#" data-scroll="true" data-id="#filosofia" class="scroll-arrow hidden-xs hidden-sm">
+                <i class="fa fa-angle-down"></i>
+            </a>
+        </div>
+        <div class="section section-filosofia" id="filosofia">
+            <div class="text-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="title add-animation">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <h2>INTRODUCTION</h2>
+                                </div>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">&nbsp;</div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <p class="large">To dance is to make a poem of our finite existence.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-8">
+                                    <p>Dancing is the deepest way I know of feeling alive. I also believe that dance is the
+                                        artistic language that best expresses the mystery of life, so linked as it is to
+                                        our consciousness of time and, therefore, to our finitude. When dancing, you do not
+                                        only exist in time: you play with time. On the other hand, when the dance embraces
+                                        you, time ceases to exist or seems to dissolve: in this precise moment, you are pure
+                                        existence, without time. This state is what drives my work.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax hidden-xs">
+                <img alt="Poliana Lima" class="parallax-img" title="photo by Virgínia Rota" src="assets/img/section2.jpg" />
+            </div>
+        </div>
+        <div class="section section-creaciones section-we-made-1 section-with-hover" id="creaciones">
+            <div class="container">
+                <div class="text-area">
+                    <div class="title add-animation">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h2>WORK</h2>
+                            </div>
+                            <div class="separator-container">
+                                <div class="separator line-separator">&nbsp;</div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                <p class="large">Creation seeks encounter, in which and from which, one always expands.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-8">
+                                <p>To create generates the possibility of deep communication and belonging. My pieces are born
+                                    from the need to express and shape my anxieties and concerns about life. Each piece is
+                                    based on my desire to deeply share an experience with the public. I seek in my poetic
+                                    universe, the place where it touches the universe of others.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <h3><small>Current Work</small></h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="aqui_siempre">AQUI,
+                                        SIEMPRE</a>
+                                    <small class="row">(HERE, ALWAYS) | 2018/2019 | Piece</small>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="hueco">HUECO</a>
+                                    <small class="row">(HOLLOW) | 2017 | Piece</small>
+                                </li>
+                                <li class="list-group-item">
+
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="las_cosas_se_mueven_pero_no_dicen_nada">LAS
+                                        COSAS SE MUEVEN PERO NO DICEN NADA
+                                    </a>
+                                    <small class="row">(THINGS MOVE BUT THEY DO NOT SAY ANYTHING) | 2016 | Short Piece</small>
+
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="atavico_obra">ATÁVICO
+                                    </a>
+                                    <small class="row">(ATAVISTIC) | 2014/2015 | Piece | Short Piece</small>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6">
+                            <h3><small>Archive</small></h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="cuerpo_trapo">CUERPO-TRAPO
+                                    </a>
+                                    <small class="row">(BODY-CLOTH) | 2014 | Performing Gender</small>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="flesh">FLESH</a>
+                                    <small class="row">2013/2014 | Piece</small>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="es_como_ver_nubes">ES
+                                        COMO VER NUBES </a>
+                                    <small class="row">(IT IS LIKE SEEING CLOUDS) | 2012 | Short Piece</small>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="project" onClick="rubik.showModal(this)" data-target="palo_en_la_rueda">PALO
+                                        EN LA RUEDA </a>
+                                    <small class="row">(A STICK IN THE WHEEL) | 2011/2012 | Short Piece</small>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-agenda section-numbers-2" id="calendar">
+            <div class="parallax full-image filter filter-color-black">
+                <img alt="Poliana Lima" class="lazyload" src="assets/img/section4.jpg">
+            </div>
+            <div class="container">
+                <div class="text-area">
+                    <div class="title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2 class="text-center text-gray">Calendar</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <table class="table">
+                        <caption>Next - 2019</caption>
+                        <tr><td><div class="number">01 y 02/02</div></td><td>Hueco, Mover Madrid</td><td>Sala Cuarta Pared, Madrid</td></tr>
+                                <tr><td><div class="number">05 y 06/02</div></td><td>Duologos</td><td>Conde Duque, Madrid</td></tr>
+                                <tr><td><div class="number">07/03</div></td><td>Extracto de Hueco</td><td>Museo Cerralbo, Festival Ellas Crean, Madrid</td></tr>
+                                <tr><td><div class="number">25/03 a 13/04</div></td><td>Residencia de Creación Aquí, Siempre</td><td>Conde Duque, Madrid</td></tr>
+                                <tr><td><div class="number">09/04</div></td><td>Aquí, Siempre - Festival Dansa Valencia</td><td>Valencia, España</td></tr>
+                                <tr><td><div class="number">11,12 y 13/04</div><td>Estreno de  Aqui, Siempre</td><td>Conde Duque, Madrid</td></tr>
+                            
+                            </table>
+
+                            <table class="table table-condensed">
+                                <caption>Previous</caption>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                            <tr>
+                                <td>
+                                    <div Class="number">23/11</div>
+                            </td>
+                            <td>Festival Danza Ñ</td>
+                            <td>
+                                Centro Párraga Murcia</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">1 y 2/11</div>
+                            </td>
+                            <td>Festival Mes de Danza de Sevilla</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">23/11 y 1/12</div>
+                            </td>
+                            <td>Residencia Aqui, Siempre</td>
+                            <td>Centro de Danza Canal</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">01/12</div>
+                            </td>
+                            <td>Aqui, Siempre (Extracto)</td>
+                            <td>Cia Invitada Certamen Coreográfico de Madrid</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">2/6</div>
+                            </td>
+                            <td>Things move but they do not say anything</td>
+                            <td>Plataforma, Teatros Del Canal. Madrid</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">11/6</div>
+                            </td>
+                            <td>Hollow</td>
+                            <td>Festival Cadiz En Danza, Cadiz</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">18 Al 03/7</div>
+                            </td>
+                            <td>Residence of Aqui, Siempre</td>
+                            <td>Centro de Danza Canal, Madrid </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">06/7</div>
+                            </td>
+                            <td>Extracto de Aquí, Siempre</td>
+                            <td>Be Festival, Birmingham, Uk</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div Class="number">27 y 28/7</div>
+                            </td>
+                            <td>Hollow</td>
+                            <td>Festival Plataforma Berlin, Berlin</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">23/03&nbsp;al&nbsp;02/04</div>
+                            </td>
+                            <td>
+                                Residence - Aquí, Siempre
+                            </td>
+                            <td>
+                                Eima Creacio, Maria de la Salut, Mallorca.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">30/04&nbsp;al&nbsp;06/05</div>
+                            </td>
+                            <td>
+                                Aquí, Siempre
+                            </td>
+                            <td>
+                                L'animal&nbsp;al&nbsp;L'esquena, Cataluña.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">3/03</div>
+                            </td>
+                            <td>
+                                Aquí, Siempre
+                            </td>
+                            <td>
+                                Festival Pies para que los quiero, Zaragoza, España
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">Febrero</div>
+                            </td>
+                            <td>
+                                Residence of Aquí, Siempre
+                            </td>
+                            <td>Centro de Danza Canal.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">9/12</div>
+                            </td>
+                            <td>
+                                Atavistic
+                            </td>
+                            <td>
+                                La Cabrera, Comunidad de Madrid.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">26/11</div>
+                            </td>
+                            <td>
+                                Things move but they do not say anything
+                            </td>
+                            <td>
+                                Festival Intacto, Vitoria-Gasteiz
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">17&nbsp;al&nbsp;24/11</div>
+                            </td>
+                            <td>
+                                Project Today, Yesterday, Tomorrow
+                            </td>
+                            <td>
+                                Artistic residence in the TEM (Teatre el Musical), Valencia.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">27/10</div>
+                            </td>
+                            <td>
+                                Hollow
+                            </td>
+                            <td>
+                                Festival BAD, Bilbao
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">16&nbsp;al&nbsp;22/10</div>
+                            </td>
+                            <td>
+                                Project Today, Yesterday, Tomorrow
+                            </td>
+                            <td>
+                                Artistic residence in the TEM (Teatre el Musical), Valencia.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">07/10&nbsp;y&nbsp;08/10</div>
+                            </td>
+                            <td>
+                                Hollow
+                            </td>
+                            <td>
+                                Teatros Canal, Madrid
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">29/09</div>
+                            </td>
+                            <td>
+                                Downtango
+                            </td>
+                            <td>
+                                Collaboration with Lucía Marote.
+                                <br />Dantza Hirian, Errenteria, País Vasco
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">23&nbsp;y&nbsp;24/09</div>
+                            </td>
+                            <td>
+                                Anatomía del Sentimiento
+                            </td>
+                            <td>
+                                Collaboration with Lucía Marote.
+                                <br />Teatro Victoria, Tenerife.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">14&nbsp;al&nbsp;17/09</div>
+                            </td>
+                            <td>
+                                Anatomía del Sentimiento
+                            </td>
+                            <td>
+                                Collaboration with Lucía Marote.
+                                <br />Carme Teatre, Valencia.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">05&nbsp;al&nbsp;10/09</div>
+                            </td>
+                            <td>
+                                Hollow Technical Residence
+                            </td>
+                            <td>
+                                L’Struch, Sabadell, Cataluña.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">14/07</div>
+                            </td>
+                            <td>
+                                Downtango
+                            </td>
+                            <td>
+                                Collaboration with Lucía Marote.
+                                <br />Festival Huellas, Aracena, Huelva.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">10&nbsp;al&nbsp;13/07</div>
+                            </td>
+                            <td>
+                                Improvisation and creation workshop
+                            </td>
+                            <td>
+                                Centro Bambudanza, Madrid
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">08/07</div>
+                            </td>
+                            <td>
+                                Flesh
+                            </td>
+                            <td>
+                                L'Struch, Sabadell, Cataluña.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">06/07</div>
+                            </td>
+                            <td>
+                                Downtango
+                            </td>
+                            <td>
+                                Collaboration with Lucía Marote.
+                                <br />Festival Corpo&nbsp;al&nbsp;Terra, Ourense, Galícia.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">19&nbsp;al&nbsp;30/06</div>
+                            </td>
+                            <td>
+                                Scholarship at the Center National de la Danse
+                            </td>
+                            <td>
+                                Festival Camping, París
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="number">10/06</div>
+                            </td>
+                            <td>
+                                Things move but they do not say anything
+                            </td>
+                            <td>
+                                Act Festival, Bilbao, País Vasco
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section section-biografia" id="biography">
+            <div class="text-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="title add-animation">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <h2 class="text-center">Biography</h2>
+                                </div>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">&nbsp;</div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="tab-content add-animation animation-2">
+                                        <p>
+                                            Poliana Lima (Brazil, 1983): Dancer and choreographer originally from Brazil and currently based in Madrid (Spain). She began
+                                            creating work in 2011 with the solo work
+                                            <a class="project hidden-sm hidden-xs" onClick="rubik.showModal(this)" data-target="palo_en_la_rueda">‘Palo en la Rueda’</a>                                            (A Stick in the Wheel). In 2013, she was selected to take part in the European
+                                            funded project ‘Performing Gender’, in which she created the performance work
+                                            ‘Body-Cloth’, which premiered at the Museum of Contemporary Art in Zagreb (Croatia).
+                                        </p>
+                                        <p>
+                                            Her collaboration with performer Ugne Dievaityte in 2012 produced two new works:
+                                            <a class="project hidden-sm hidden-xs" onClick="rubik.showModal(this)" data-target="es_como_ver_nubes">‘Es Como Ver Nubes’</a>                                            (It Is Like Seeing Clouds) and <a class="project hidden-sm hidden-xs" onClick="rubik.showModal(this)"
+                                                data-target="flesh">‘Flesh’</a>, which were programmed in a number of national
+                                            and international festivals including “The Edinburgh Fringe Festival”, “Spring
+                                            Forward”, “Aerowaves”, “Mercat de Flors”, “Festival Dansa Valencia”, “Festival
+                                            New Baltic Dance”, “Madrid en Danza”, “Korzo”.
+                                        </p>
+                                        <p>
+                                            In 2014, <a class="project hidden-sm hidden-xs" onClick="rubik.showModal(this)"
+                                                data-target="atavico">‘Atávico’</a> (Atavistic), her first ensemble work, was
+                                            awarded five national awards including First Prize in the prestigious XXVIII
+                                            Certamen Coreográfico de Madrid. In 2015, she won ‘Best Performance Work’ at
+                                            the ACT Festival in Bilbao (Spain) and in 2016 she closed the festival with the
+                                            beautiful choreographic work, <a class="project hidden-sm hidden-xs" onClick="rubik.showModal(this)"
+                                                data-target="las_cosas_se_mueven_pero_no_dicen_nada">‘Las
+                                                Cosas Se Mueven Pero Se Dicen Nada’</a> (Things Move But They Do Not Say
+                                            Anything).
+                                        </p>
+                                        <p>
+                                            In 2017, Poliana Lima created her last work which is called <a class="project hidden-sm hidden-xs"
+                                                onClick="rubik.showModal(this)" data-target="hueco">‘Hueco’</a> (Hollow), and
+                                            after its premiere in October at the Canal Theaters of Madrid (Teatros Canal
+                                            de Madrid) and at the BAD Bilbao, Hueco has begun its journey this year 2018.
+                                            Hueco has been nominated in two categories for the 2018 MAX Awards in Spain:
+                                            The Best New Show/Performance (Mejor Espectáculo Revelación) and The Best New
+                                            Authorship (Mejor Autoría Revelación).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax hidden-xs">
+                <img alt="Poliana Lima" class="parallax-img" title="photo by Virgínia Rota" src="assets/img/section3.jpg" />
+            </div>
+        </div>
+        <div class="section section-creaciones section-we-made-videos section-with-hover" id="videos">
+            <div class="container">
+                <div class="text-area">
+                    <div class="title add-animation">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h2 class="text-center">Videos</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-1">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/aqui_siempre.jpg" />
+                        <div class="over-area over-area-sm" onClick="">
+                            <div class="content">
+                                <h4>Here, Always</h4>
+                                <p>Pieza</p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#AquiSiempreModal">
+                                    <i class="fa fa-play" aria-hidden="true"></i>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-2">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/hueco1.jpg" />
+                        <div class="over-area over-area-sm" onClick="">
+                            <div class="content">
+                                <h4>Hollow</h4>
+                                <p>Piece</p>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-3">
+                                    <button class="btn" data-toggle="modal" data-target="#HuecoModal">
+                                            <i class="fa fa-play" aria-hidden="true"></i>
+                                        </button>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <button class="btn" data-toggle="modal" data-target="#HuecoModal1">
+                                            <i class="fa fa-play" aria-hidden="true"></i>
+                                        </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-2">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/hueco.jpg" />
+                        <div class="over-area over-area-sm" onClick="">
+                            <div class="content">
+                                <h4>Hollow</h4>
+                                <p>Piece</p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#HuecoModal">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-3">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/fotosolascosas3.jpg" />
+                        <div class="over-area over-area-sm" onClick="" data-target="las_cosas_se_mueven_pero_no_dicen_nada">
+                            <div class="content">
+                                <h4>Things move but they do not say anything</h4>
+                                <p>Short Piece</p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#lasCosasModal">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-3">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/ATAVICO_3.jpg" />
+                        <div class="over-area over-area-sm" onClick="" data-target="atavico">
+                            <div class="content">
+                                <h4>Atavistic</h4>
+                                <p>Short Piece</p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#AtavicoModal">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-2">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/flesh.jpg" />
+                        <div class="over-area over-area-sm" onClick="" data-target="flesh">
+                            <div class="content">
+                                <h4>Flesh</h4>
+                                <p>Piece</p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#FleshModal">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="project add-animation animation-1">
+                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/oficinas.png" />
+                        <div class="over-area over-area-sm" onClick="">
+                            <div class="content">
+                                <h4>Workshops</h4>
+                                <p></p>
+                            </div>
+                            <button class="btn" data-toggle="modal" data-target="#oficinasModal">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-historia" id="historia">
+            <div class="text-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="title add-animation">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <h2>BACKGROUND</h2>
+                                    </div>
+                                    <div class="separator-container">
+                                        <div class="separator line-separator">&nbsp;</div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <p class="large">In front of movement, you can only surrender.</p>
+                                    </div>
+                                    <div class="col-xs-12 col-md-8">
+                                        <p>I am a dancer, choreographer and dance teacher. Dance is my home, it is where I exist
+                                            and part of my identity. It is a peculiar identity, because its nature, far from
+                                            being fixed, is in continual movement.
+                                        </p>
+                                        <p>As a child I wanted to devote myself to dance and expressed it before I started taking
+                                            classes. Between adolescence and young adulthood I hesitated: I thought I would
+                                            pursue a more conventional career, scared and discouraged by the bleak image
+                                            that is usually had of dance and art as a business and profession. Fortunately,
+                                            at 20 years of age when on a trip abroad, I took up dance as part of my life.
+                                            It was in an African dance class in a small over heated studio, with people from
+                                            all over the world that I felt the beauty of the unity and power of dance. The
+                                            fifty people who were there dancing, who would never be able to understand each
+                                            other if they had to communicate through words, vibrated and opened to each other,
+                                            and to something bigger than themselves. Even today, I carry these people with
+                                            me: they continue to dance in me and through me.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax hidden-xs">
+                    <img alt="Poliana Lima" class="parallax-img" title="photo by Virgínia Rota" src="assets/img/section1.jpg" />
+                </div>
+            </div>
+        </div>
+        <!--        <div class="section section-docencia" id="docencia">
+            <div class="text-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="title add-animation">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <h2>TEACHING</h2>
+                                </div>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">&nbsp;</div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <p class="large">We all want to belong and be recognised in our wholeness.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-8">
+                                    <p>To see someone dance is the most direct way to see a person in all their complexity.
+                                        The dance works with the intellectual, emotional and physical capacities of a person.
+                                        It also reveals his past, places the person in his present and reveals his desire
+                                        and his future hopes. Dance engenders a profound knowledge about life and about oneself.
+                                    </p>
+                                    <p>My work as a teacher is developed in the form of contemporary dance and improvisation
+                                        classes and creative workshops. The fundamental pillars of my teaching are, on the
+                                        one hand, to recognise each student in their individuality and integrity, and on
+                                        the other, to generate integration and support within the group.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/214904103?autoplay=0&color=ffffff&title=0&byline=0&portrait=0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="section section-premios" id="premios">
+            <div class="container">
+                <div class="add-animation">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h2 class="text-center">PRIZES</h2>
+                    </div>
+                    <div class="separator-container">
+                        <div class="separator line-separator">&nbsp;
+
+                        </div>
+                    </div>
+                    <div class="icon text-center">
+                        <i class=""></i>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <h3>Hollow</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <blockquote>
+                                            <p>Selected Candidate for Most Promising New Performance Maker</p>
+                                        </blockquote>
+                                    </li>
+                                </ul>
+                                <h3>Flesh</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <blockquote>
+                                            <p>Nominated as a candidate –Tanz Maganize (January) / Germany</p>
+                                            <p>The Best Dancer</p>
+                                        </blockquote>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <h3>Atavistic</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <blockquote>
+                                            <p>2016 1º Premio en el ACT Festival</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>2015 1º Premio en el X Certamen Coreográfico de Sabadell.</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>2014 1º Premio en el XXVIII Certamen Coreográfico de Madrid.</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>Premio de Crítica en el XXVIII Certamen Coreográfico de Madrid</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>Premio de Público en el XXVIII Certamen Coreográfico de Madrid</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>Premio Beca Dance Web</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>Premio Residencia Tanzhauz Zurich</p>
+                                        </blockquote>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <h3>It Is Like Seeing Clouds</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <blockquote>
+                                            <p>2014 1º Premio Festival Vila Real en Dansa</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>2013 2º Premio Certamen de Una Pieza</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>2012 Premio de Público en el XXVI Certamen</p>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <p>Coreográfico de Madrid</p>
+                                        </blockquote>
+                                    </li>
+                                </ul>
+                                <h3>A Stick In The Wheel</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <blockquote>
+                                            <p>2012 1º Premio en el Festival Vila Real en Dansa</p>
+                                        </blockquote>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-criticas" id="criticas">
+            <div class="container">
+                <div class="text-area">
+                    <div class="title add-animation">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2 class="text-center">REVIEWS</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <div>
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-text list-logos add-animation animation-2 animate text-center" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#resenas" aria-controls="resenas" role="tab" data-toggle="tab">
+                                        <h3 class="big-text">CRITICISM AND REVIEWS</h3>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#comentarios" aria-controls="comentarios" role="tab" data-toggle="tab">
+                                        <h3 class="big-text">COMMENTS</h3>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content add-animation animation-2">
+                                <div role="tabpanel" class="tab-pane fade in active" id="resenas">
+                                        https://unblogdedanza.com/2019/02/04/lo-corporeo-como-identidad-vital/
+                                        
+                                        <blockquote>
+                                                <p>A lo largo de los 50 minutos que dura la obra, (...), la intérprete muestra potestad sobre dos hechos que discurren clave: la entrega y desnudez de su proceso y el rigor y contundencia de lo corpóreo como vehículo de salvación
+                                                    <a class="btn" href="https://unblogdedanza.com/2019/02/04/lo-corporeo-como-identidad-vital/" target="_blank" rel="external">Original Link</a>
+                                                </p>
+                                                <footer>
+                                                    <cite>Un blog de danza</cite>,
+                                                    <a href="https://unblogdedanza.com/2019/02/04/lo-corporeo-como-identidad-vital/" target="_blank" rel="external">Crítica </a>                                            de Mercedes Caballero.
+                                                </footer>
+                                            </blockquote>
+                                    
+                                    <blockquote>
+                                        <p>Aunque fueron creadas antes del triunfo de Bolsonaro, las obras de los brasileros
+                                            Paul Pi y Poliana Lima presentadas en el Mes de Danza de Sevilla parecen premonitorias.
+                                            <a class="btn" href="https://susyq.es/actualidad/680-paul-pi-y-poliana-lima-en-mes-de-danza" target="_blank" rel="noopener">Original Link</a>
+                                        </p>
+                                        <footer>
+                                            <cite>Susy Q (Spanish magazine specialized in dance)</cite>,
+                                            <a href="https://susyq.es/actualidad/680-paul-pi-y-poliana-lima-en-mes-de-danza" target="_blank" rel="noopener">review </a>                                            by Omar Khan about Hueco
+                                        </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>Poliana Lima or the will to exist.</p>
+                                    
+                                        <p>(...) Hueco seems to us a more personal work, the expression of a will to be. A will
+                                            that Lima builds with his own body, with a really impressive physical work.
+                                            <a class="btn" href="https://www.diariodesevilla.es/ocio/PolianaLima_0_1297070620.html" target="_blank" rel="noopener">Original Link</a>
+                                        </p>
+                                        <footer>
+                                            <cite>
+                                        <a href="https://www.diariodesevilla.es/ocio/PolianaLima_0_1297070620.html" target="_blank"
+                                        rel="noopener">review</a> by Rosalía Gómez about Hueco
+                                            </cite>
+
+                                            </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>Poliana Lima’s solo choreography ‘Hueco’ was a revelation. Structured in the form
+                                            of a triptych the work starts with Poliana reciting Brazilian poet, Carlos Drummond
+                                            de Andrade’s poem ‘ I Carry with Me’ (1945).
+                                        </p>
+                                        <p>
+                                            I am not empty, I am not alone’ he states and for the next 50 minutes the audience experiences the most extraordinary unfolding
+                                            of an individual as the performer tries and tries again to not only be fully
+                                            present to the audience but fully present to her shifting sense of herself –
+                                            as artist, as exile, as someone trying to make sense of having a history and
+                                            an uncertain future. The title of the piece ‘Hueco’ meaning ‘hollow’ in English,
+                                            utilises the framework of real, intuitive, time and space into which she inserts
+                                            herself in an attempt to create an expanded and shifting sense of ‘here and now’,
+                                            of movement and stillness, of falling and failing.
+                                        </p>
+                                        <div class="collapse stevep">
+                                            <p>
+                                                In the piece the performer makes direct eye contact with the audience. There is looking, watching, gazing, staring from one
+                                                member of the audience to another – as if we, the audience, could solve the
+                                                puzzle, provide the answer, offer reassurance. Our main task is to bear witness
+                                                to an artist who has taken the decision to try and extract the full significance
+                                                of what it is means to have a place in the world knowing that she is the
+                                                only being that can lend this process any ultimate sense. We, as spectator,
+                                                have been permitted to accompany her on that journey. Andrade seemed to know
+                                                this too. ‘Losing you, would be losing myself’ he says. Performer and audience
+                                                are united in jointly entering this ‘hollow’ that is the performance itself.
+                                            </p>
+                                            <p>
+                                                In a cool, pale circle of light, the performance turns inwards as the performer, eyes tight shut now, twists and turns, muscles
+                                                taught and turning, attempts to gouge out from her interior life a space
+                                                into which she can be free to move unhindered. Reminiscent of a Francis Bacon
+                                                figure – part carcass, part human, this is not a painless process.
+                                            </p>
+                                            <p>
+                                                Sharing the performance space with Poliana Lima, is musician and composer, Vidal, who slightly off stage yet also lit in
+                                                low light, accompanies her on this journey through the live playing and re-mixing
+                                                of the soundscape – a sonic improvisation of sorts, operating as more than
+                                                sound illustration of the action but more frequently as prompt and commentator
+                                                to the unfolding action. Here dancer and musician seem both to have agreed
+                                                that the next hour of the performance will be a threshold over which they
+                                                will both have to cross with neither of them really knowing what could be
+                                                made manifest in the space that they share with us as audience. The piece
+                                                is intimate, tough yet ultimately fragile. From out of the darkness the faint
+                                                sound of a samba is heard. We begin to see the outline of a samba dancer,
+                                                large black feathered wings shifting in the emerging light. This appears
+                                                to be a figure walking out of the past. After the struggles of the previous
+                                                section of the work, there is some relief at the soothing sounds of the shifting
+                                                rhythms of the samba, but the image is ultimately a dark one – this is a
+                                                bitter/sweet image. The body here sways and shifts, hips move, feet shuffle
+                                                but this doesn’t feel like a celebration. Somewhere in this dark body a tiny
+                                                bundle, a subtle burden is still making itself present. That burden in part
+                                                is Brazil and in part the coming to terms of who this emerging person can
+                                                be. It was an amazing experience and a privilege to be in the audience to
+                                                experience it.
+                                            </p>
+                                            <p>
+                                                ‘Hueco’ is a complex, generous and demanding piece of work. It rewards the audience amply as the post show discussion with
+                                                the artist showed. Smart incisive questions from an audience keen to know
+                                                more about the creative process and the experience of performing such an
+                                                intense work. The Q+A session was almost as long as the work – proof that
+                                                audiences under the right circumstances and in front of innovative and high
+                                                quality work are not afraid to be challenged. Programmers take note!
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-default btn-xs" data-toggle="collapse" href=".stevep">
+                                            <div class="stevep collapse in">More</div>
+                                            <div class="stevep collapse">Less</div>
+                                        </a>
+                                        <br>
+                                        <br>
+                                        <footer><cite>Steve Purcell</cite></footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>Poliana Lima's first full length work, was originally produced in a 15 minute short
+                                            version. It disturbed a public accustomed to a "state of agreed normality", harmony,
+                                            observing the exercises on stage, identifying them and placing them, colleagues
+                                            and friends, a cosy togetherness in the process... </p>
+                                        <p>
+                                            And, suddenly, a bomb explodes in the middle of the stage of the Conde Duque Theatre, blowing an enormous crater with the
+                                            speed of its impact. Proving to the public that the discourse sometimes takes
+                                            away everything:the seats, the inside of our heads, and makes the situation on
+                                            stage very different: leaving a scene far more peculiar, and the viewer, shocked,
+                                            feeling violated.</p>
+                                        <p>
+                                            This duality between the violent and the emotional, deeply human, took place at the 28th Certamen Coreográfico de Madrid
+                                            (2014). 28th Choreographic Competition of Madrid (2014).
+                                            <a class="btn" href="http://lapor-la-la.blogspot.com.es/2016/03/atavico-de-poliana-lima-un-hombre-3.html" target="_blank" rel="noopener">Original Link</a>
+                                        </p>
+                                        <footer>
+                                            <cite>Maria Rogel</cite>, from an
+                                            <a href="http://lapor-la-la.blogspot.com.es/2016/03/atavico-de-poliana-lima-un-hombre-3.html" target="_blank" rel="noopener">article</a>                                            about Atavico
+                                        </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p> "Atavico" is a lesson in simplicity. With intelligent transformations, and through
+                                            images that equally combine a strange beautiful ugliness and deep meaning, "Atavico"
+                                            achieves its narrative fullness with no instruments other than the repetition
+                                            of the gesture, the expression of its interpreters and the insidious and penetrating
+                                            sound of the space. The set is an exemplary walk through hell." <a class="btn" href="http://escenadelamemoria.blogspot.com.es/2015/12/atavico.html" target="_blank" rel="noopener">Original Link</a>  
+                                        </p>
+                                        <footer>
+                                            Cutting from a
+                                            <a href="http://escenadelamemoria.blogspot.com.es/2015/12/atavico.html" target="_blank" rel="noopener">review</a>                                            by
+                                            <cite>Jordi Sora</cite>
+                                        </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>The pure beauty of flesh is in its intransigent minimalism. The rear view of two
+                                            torsos is lit in chiaroscuro like a Caravaggio or a photo by Bill Brandt of the
+                                            "nude as landscape". Without individuality we become more aware of the abstract
+                                            forms that make up their bodies, by the extending of an elbow, or a leg, but
+                                            never the head. The strange compositions that the two of them make together are
+                                            fascinating.
+                                        </p>
+                                        <footer>
+                                            <cite>The skinny magazine</cite>, about FLESH
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="comentarios">
+                                    <blockquote>
+                                        <p>I really loved the work… she is totally compelling and intriguing, but also I thought
+                                            the work was so rich and bursting with ideas and provocations. That was apparent
+                                            also in the way it clearly touched that straight, middle class, middle aged audience,
+                                            provoking such varied but altogether empathetically engaged responses. So that
+                                            is great evidence that audiences want to be challenged and intrigued rather than
+                                            the prevailing programming that tends towards being so safe and anxious to please.
+                                            Also, what a pleasure to talk to an artist who talks so intelligently, confidently
+                                            and accessibly about their work. That was a bonus for the audience after the
+                                            performance - to get that insight and brilliant articulation of the practice.
+                                        </p>
+                                        <footer><cite>Beth Cassani – choreographer and senior lecturer in performance
+                                                and choreography, Leeds Beckett University (UK).</cite></footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>I found Poliana Lima’s performance ‘Hueco’ fascinating to watch. In parts it was
+                                            like something from a David Lynch film…it was so interesting to watch someone
+                                            so involved in the physicality of the movement and so present in what she was
+                                            doing. It was quite captivating and unnerving at the same time.
+                                        </p>
+                                        <footer><cite>Hannah Robertshaw, Programmes Manager, Yorkshire Dance, Leeds
+                                                (UK).</cite></footer>
+                                    </blockquote>
+
+                                    <blockquote>
+                                        <p>Hueco seemed to speak to me about the gift/burden of what it means to be a human
+                                            being and an artist…what it is to be in the process of creation, of being present,
+                                            of having to express something when you don’t yet know what it is, but you can’t
+                                            put it aside.</p>
+                                        <footer><cite>Wieke Eringa, CEO Yorkshire Dance, Leeds (UK).</cite></footer>
+                                    </blockquote>
+
+                                    <blockquote>
+                                        <p>In 60 years of watching contemporary dance and other dancers, I have never seen anything
+                                            like this, and I have to say I found much of it difficult to watch… your personal
+                                            integrity and honesty in this work is commendable…I really appreciated your conversation
+                                            with us in the audience and your bravery at expressing your inner soul so authentically.
+                                            Few performers would be that honest or sincere.</p>
+                                        <footer><cite>Viv Lever, freelance art photographer.</cite></footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>FLESH es un dueto impecablemente realizado, lleno de profundidad, poder y originalidad
+                                            coreográfica.
+                                        </p>
+                                        <footer>
+                                            <cite>Morag Reyes</cite>, Dance Base artistic director, Edimburgo, UK, sobre
+                                            FLESH
+                                        </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>"Al realizar su propia coreografía, Ugne Dievaityte y Poliana Lima son capaces de
+                                            abrir la danza y de mostrarnos el cuerpo en su calidad inmediata. Con ellas,
+                                            la desnudez tiene multiples capas de manera radical, oscilando entre la vulnerabilidad
+                                            infinita y la claridad de la forma escultórica”.</p>
+                                        <footer>
+                                            <cite>Stacz Wilheim</cite>Korzo artistic director, La Haya, Holanda, sobre FLESH
+                                        </footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>La obra de Poliana Lima surge de su investigación inteligente y compromiso absoluto
+                                            con su tema, el movimiento reducido hasta lo esencial.</p>
+                                        <footer>
+                                            <cite>Laura Kumin</cite> sobre el trabajo de Poliana en general</footer>
+                                    </blockquote>
+                                    <blockquote>
+                                        <p>El trabajo de Poliana es crudo y arriesgado no solo en lo físico sino también en
+                                            su búsqueda por una verdad que no existe aun y esta siempre por revelarse.</p>
+                                        <div class="laura_kumin collapse">
+                                            <p>Desde Marzo de este año vengo acompañando el proceso creativo de HUECO. La nueva
+                                                pieza de Poliana Lima que desarrolla en la residencia de los teatros del
+                                                CANAL. El trabajo de Poliana es crudo y arriesgado no solo en lo físico sino
+                                                también en su búsqueda por una verdad que no existe aun y esta siempre por
+                                                revelarse. Esa es la aventura en la que todo artista debería embarcarse,
+                                                ir detrás de aquello que no tiene forma aun. Detrás de una intuición única
+                                                que despliega su deseo. Cuando veo a Poliana trabajar queda revelada toda
+                                                su vulnerabilidad en ese intento incansable de acercarse a algo que esta
+                                                oculto hasta para ella misma. Esta siendo para mi como artista muy inspirador
+                                                poder acompañar este proceso creativo y volver a pensar el cuerpo y el movimiento
+                                                junto a ella. Lanzarnos en esa aventura maravillosa de inventar un cuerpo,
+                                                o dejar que se revele ese cuerpo que ya esta ahi en ella, pero permanecía
+                                                oculto.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-default btn-xs" data-toggle="collapse" href=".laura_kumin">
+                                            <div class="laura_kumin collapse in">More</div>
+                                            <div class="laura_kumin collapse">Less</div>
+                                        </a>
+                                        <footer>
+                                            <cite>Lucas Condró</cite>, sobre HUECO, nuevo solo</footer>
+                                    </blockquote>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-contacto" id="contacto">
+            <div class="container">
+                <div class="text-area">
+
+                    <div class="contact-form">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 right-border">
+                                <div class="address">
+                                    <h4>Contact</h4>
+                                    <p class="text-gray">
+                                        <a href="mailto:info@polianalima.com">info@polianalima.com</a>
+                                    </p>
+                                    <ul class="nav navbar-nav navbar-uppercase">
+                                        <li class="social-links">
+                                            <a href="https://www.facebook.com/PolianaLimaCia/">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                            <a target="_blank" rel="noopener" href="https://www.youtube.com/user/2020poliana">
+                                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="https://vimeo.com/160396785">
+                                                <i class="fa fa-vimeo"></i>
+                                            </a>
+                                            <a href="mailto:info@polianalima.com" data-scroll="true" data-id="#contacto">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                            <a href="https://www.polianalima.com/blog/" target="_blank" rel="noopener">Blog</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-4 right-border">
+                                <div class="address">
+                                    <h4>Production</h4>
+                                    <p class="text-gray">
+                                        <a href="produccion@polianalima.com">produccion@polianalima.com</a>
+                                        <br />Ayse Aytolu
+                                        <br />+34 655 99 66 52
+                                        <br />
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 right-border">
+                                <div class="address">
+                                    <h4>Asociate Producer</h4>
+                                    <p class="text-gray">
+                                        <a href="steve@polianalima.com">steve@polianalima.com</a>
+                                        <br />Steve Purcell
+                                        <br />07783 786 977
+                                        <br />
+                                    </p>
+                                </div>
+                            </div>
+                            <!--                        <div class="col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-2">
+                                <div class="form-group add-animation animation-1">
+                                    <input type="text" value="" placeholder="Nombre" class="form-control">
+                                </div>
+                                <div class="form-group add-animation animation-2">
+                                    <input type="text" value="" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-group add-animation animation-3">
+                                    <textarea class="form-control" placeholder="Mensage" rows="8"></textarea>
+                                </div>
+                                <button class="btn btn-lg btn-black pull-right">
+                                    Envia <i class="fa fa-paper-plane"></i>
+                                    </button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-colaboraciones" id="colaboraciones">
+            <div class="container">
+                <div class="text-area">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h2 class="text-center">Collaborations</h2>
+                    </div>
+                    <div class="separator-container">
+                        <div class="separator line-separator">&nbsp;</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 right-border">
+                            <div class="address">
+                                <a target="_blank" rel="noopener" href="http://www.luciamarote.com">
+                                    <h4>Lucía Marote</h4>
+                                    <p class="text-gray">
+                                        http://www.luciamarote.com
+                                    </p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 right-border">
+                            <div class="address">
+                                <a target="_blank" rel="noopener" href="http://www.dievaityte.com">
+                                    <h4>Ugne Dievaityte</h4>
+
+                                    <p class="text-gray">
+                                        http://www.dievaityte.com
+
+                                    </p>
+                                </a>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 right-border">
+                            <div class="address">
+                                <a target="_blank" rel="noopener" href="http://www.bambudanza.com">
+                                    <h4>
+                                        <small>As a teacher, I collaborate with: </small>Centro&nbsp;Bambudanza</h4>
+                                    <p class="text-gray">
+                                        www.bambudanza.com
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer-big footer-color-black" id="footerTrigger">
+        <div class="container">
+
+            <div class="copyright bg-secondary">
+                2017.
+                <a href="http://denisforigo.com" class="text-muted" target="_blank" rel="noopener">Denis Forigo</a>. Photography
+                by
+                <em>Virgínia Rota</em>.
+            </div>
+
+        </div>
+    </footer>
+    <!-- end wrapper -->
+    <div class="project-content" id="palo_en_la_rueda">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>A stick in the wheel</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Time that stops even though in movement.
+                            <br /> Time, movement and body.
+                            <br /> The choked on, that didn’t happen, that is repeated.
+                            <br /> Forces that pull forwards and backwards.
+                            <br /> Split body, so many directions and voices.
+                            <br /> Where and how to go?
+                            <br /> In the end, what path is that?
+                        </p>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/agency_6.jpg" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item active">Credits
+
+                                            </li>
+                                            <li class="list-group-item">Conception, Direction and Interpretation: Poliana Lima </li>
+                                            <li class="list-group-item">Lighting: Pablo Seoane</li>
+                                            <li class="list-group-item">Music: Pablo Sánchez </li>
+                                            <li class="list-group-item">Graphic Material:
+                                                <a href="http://portfolio.denisforigo.com/">Denis Forigo</a>
+                                            </li>
+                                            <li class="list-group-item">Duration: 10 minutos</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="es_como_ver_nubes">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>It is like seeing clouds</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Bodies without surface. Figures, shapes, silhouettes in space. Collect them. Hunt them and tame them.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/agency_1.jpg" />
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+                                        <li class="list-group-item">Conception, Direction and Interpretation: Poliana Lima, Ugne Dievaityte</li>
+                                        <li class="list-group-item">Music: Pablo Sánchez</li>
+                                        <li class="list-group-item">Lighting: Pablo R. Seoane</li>
+                                        <li class="list-group-item">Photography: Barbara Crosetti</li>
+                                        <li class="list-group-item">Graphic material: Denis Forego</li>
+                                        <li class="list-group-item">Duration: 14 minutos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="atavico">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Atavistic - Brief</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Atavico, without the intention of creating a narrative, poses a scenic experience connected with
+                            the sensations of violence and their repercussion in the body: the landscapes that, as hidden
+                            forces, make us victims and executioners at the same time.</p>
+                        <p>In this proposal we put our faith in "everyday" bodies, outside standard norm, with the determination
+                            to share the beauty of movement and gestures from daily life beyond the accepted canon, as well
+                            as dance that is beyond virtuosity.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="lazyload img-responsive" src="assets/img/ATAVICO_3.jpg" />
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+                                        <li class="list-group-item">Concepción, dirección y coreografía: Poliana Lima</li>
+                                        <li class="list-group-item">Intérpretes: Aitor Galán, Lucía Marote Maria Pallares Poliana Lima</li>
+                                        <li class="list-group-item">Music: Vidal </li>
+                                        <li class="list-group-item">Lighting: Pablo R. Seoane</li>
+                                        <li class="list-group-item">Vestuario y Atrezzo: Poliana Lima y Marina Santo</li>
+                                        <li class="list-group-item">Duration: 15 minutos</li>
+                                        <li class="list-group-item">Photography: Eva Vieira</li>
+                                    </ul>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Equipo Técnico
+
+                                        </li>
+                                        <li class="list-group-item">Production: Carmen Fernandez</li>
+                                        <li class="list-group-item">Technical direction: Pablo R. Seoane</li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/158933621?portrait=0" width="640" height="360"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="atavico_obra">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Atavistic</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Atavico, without the intention of creating a narrative, poses a scenic experience connected with
+                            the sensations of violence and their repercussion in the body: the landscapes that, as hidden
+                            forces, make us victims and executioners at the same time.</p>
+                        <p>In this proposal we put our faith in "everyday" bodies, outside standard norm, with the determination
+                            to share the beauty of movement and gestures from daily life beyond the accepted canon, as well
+                            as dance that is beyond virtuosity.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="lazyload img-responsive" src="assets/img/atavico.jpg" />
+                                    <br>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/158933621?portrait=0" width="640" height="360"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+
+                                        <li class="list-group-item">Conception, direction and choreography: Poliana Lima
+                                        </li>
+                                        <li class="list-group-item">Performers:
+                                            <br />Aitor Galán
+                                            <br />Lucía Marote
+                                            <br />Irene Vazquez
+                                            <br />Poliana Lima</li>
+                                        <li class="list-group-item">Music: Vidal </li>
+                                        <li class="list-group-item">Lighting: Pablo R. Seoane</li>
+                                        <li class="list-group-item">Costumes and props: Poliana Lima y Marina Santo</li>
+                                        <li class="list-group-item">Duration: 55 minutos</li>
+                                    </ul>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Technical team</li>
+                                        <li class="list-group-item">Production: Carmen Fernandez</li>
+                                        <li class="list-group-item">Technical direction: Pablo R. Seoane</li>
+                                    </ul>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Technical Rider</li>
+                                        <li class="list-group-item">
+                                            <a href="assets/pdf/TECHNICAL_RIDER_ATAVICO_Poliana_Lima_ES.pdf">Download
+                                                the Technical Rider</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="las_cosas_se_mueven_pero_no_dicen_nada">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Things move but they do not say anything</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>‘Las Cosas Se Mueven, pero Dicen Nada ( 2017) (Things Move But they do not Say Anything, 2017) is
+                            a choreography for multiple dancers about the possibilities of movement and the idea of permanence.
+                            Abstract in form, the piece is based on the idea that everything in life is in a state of constant
+                            movement, and that all living things move. Through their very existence and by purely moving,
+                            things have both their value and beauty. In this sense, the piece is a creative exploration and
+                            tribute to the rhythms and patterns of movement. The choreography invites the audience to be
+                            drawn into the developing overlapping and intertwining actions of the dancers allowing them to
+                            contemplate the beauty, complexity and dynamics of bodies in movement.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="lazyload img-responsive" src="assets/img/fotosolascosas3.jpg">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+                                        <li class="list-group-item">Coreografia y Dirección: Poliana Lima</li>
+                                        <li class="list-group-item">Music: Vidal </li>
+                                        <li class="list-group-item">Photography: Jacobo Medrano</li>
+                                        <li class="list-group-item">Performers: Ada Continente, Ainhoa Uzandizaga, Almudena Perez, Cecilia Espeso, Cris
+                                            Manso, Maddi Ruiz de Loizaga, Laura Carona y Elena Susilla.</li>
+                                        <li class="list-group-item">Graphic material: Denis Forigo</li>
+                                        <li class="list-group-item">Duration: 15 minutos</li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212383660?portrait=0" width="640" height="360"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="flesh">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Flesh</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Without name, without identity. The body and its physical nature, sensual.</p>
+                        <p>Animality, and dreamlike forms that are lost and reappear, mix and separate. The familiar and the
+                            unknown in the living flesh itself.</p>
+                        <p>Flesh in movement, renegade and reclaimed body, a space of struggle and reconciliation between the
+                            human and animal.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="lazyload img-responsive" src="assets/img/projects/flesh.jpg" />
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+                                        <li class="list-group-item">Concepción, Dirección e Interpretación: Poliana Lima & Ugne Dievaityte</li>
+                                        <li class="list-group-item">Music: Pablo Sánchez Pulido</li>
+                                        <li class="list-group-item">Lighting: Pablo Seoane</li>
+                                        <li class="list-group-item">Vídeo: Pau Amengual, Isabella Lima</li>
+                                        <li class="list-group-item">Photography: Bárbara Crossetti / Pablo Seoane</li>
+                                        <li class="list-group-item">Graphic material: Denis Forigo</li>
+                                        <li class="list-group-item">Duration: 55 min.</li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/174273229?portrait=0" width="640" height="360"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-content" id="hueco">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Hollow</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+
+                        <blockquote>
+                            <p class="text-left text-gray">I really loved the work… she is totally compelling and intriguing, but also I thought the work
+                                was so rich and bursting with ideas and provocations. That was apparent also in the way it
+                                clearly touched that straight, middle class, middle aged audience, provoking such varied
+                                but altogether empathetically engaged responses. So that is great evidence that audiences
+                                want to be challenged and intrigued rather than the prevailing programming that tends towards
+                                being so safe and anxious to please. Also, what a pleasure to talk to an artist who talks
+                                so intelligently, confidently and accessibly about their work. That was a bonus for the audience
+                                after the performance - to get that insight and brilliant articulation of the practice.</p>
+                            <footer><cite>Beth Cassani –
+                                    choreographer and senior lecturer in performance and choreography,
+                                    Leeds
+                                    Beckett University (UK).</cite></footer>
+                        </blockquote>
+                        <blockquote>
+                            <p class="text-left text-gray">I found Poliana Lima’s performance ‘Hueco’ fascinating to watch. In parts it was like something
+                                from a David Lynch film…it was so interesting to watch someone so involved in the physicality
+                                of the movement and so present in what she was doing. It was quite captivating and unnerving
+                                at the same time.
+                            </p>
+                            <footer><cite>Hannah
+                                    Robertshaw, Programmes Manager, Yorkshire Dance, Leeds (UK).</cite></footer>
+                        </blockquote>
+
+                        <blockquote>
+                            <p class="text-left text-gray">Hueco seemed to speak to me about the gift/burden of what it means to be a human being and an
+                                artist…what it is to be in the process of creation, of being present, of having to express
+                                something when you don’t yet know what it is, but you can’t put it aside.</p>
+                            <footer><cite class="text-left">Wieke Eringa, CEO Yorkshire Dance, Leeds
+                                    (UK).</cite></footer>
+                        </blockquote>
+
+                        <blockquote>
+                            <p class="text-left text-gray">In 60 years of watching contemporary dance and other dancers, I have never seen anything like
+                                this, and I have to say I found much of it difficult to watch… your personal integrity and
+                                honesty in this work is commendable…I really appreciated your conversation with us in the
+                                audience and your bravery at expressing your inner soul so authentically. Few performers
+                                would be that honest or sincere.</p>
+                            <footer>
+                                <cite>Viv Lever, freelance art photographer.</cite></footer>
+                        </blockquote>
+
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+
+                        <p>HUECO (Hollow) is a contemporary dance solo that explores the notion of identity, place and time,
+                            through the concept of journeying and through the interaction between movement and live music.
+                        </p>
+
+                        <p>‘HUECO’ explores in real time the diverse dynamics and challenges of being present to oneself and
+                            to others. It’s in this ‘in-between’, liminal space that the true possibilities of being are
+                            first sensed then lived in and through the body. This is a space of perpetual motion and change.</p>
+
+                        <p>At the heart of the work is a journey to find and know this space - a vertiginous void into which
+                            she can throw herself and into which her dancing self provides a new grounded and living sense
+                            of self.</p>
+
+                        <p>The ‘hollow’ of the title refers to this urgent need to open up a space for dance as an affirmation
+                            of being in the world in the here and now. </p>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="article row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/hueco.jpg" />
+                                            <br>
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/235394450" width="1280" height="720" allowfullscreen></iframe>
+                                            </div>
+                                            <br>
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/234003468" width="1280" height="720" allowfullscreen></iframe>
+                                            </div>
+                                            <br>
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/233025771" width="1280" height="720" allowfullscreen></iframe>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Credits
+
+                                        </li>
+                                        <li class="list-group-item">Conception, direction and choreography: Poliana Lima
+                                        </li>
+                                        <li class="list-group-item">Assistant director: Lucas Condró</li>
+                                        <li class="list-group-item">Performers: Poliana Lima</li>
+                                        <li class="list-group-item">Music: Vidal</li>
+                                        <li class="list-group-item">Lighting: Pablo R. Seoane</li>
+                                        <li class="list-group-item">Duration: 50 minutos</li>
+                                    </ul>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Equipo técnico
+
+                                        </li>
+                                        <li class="list-group-item">Technical direction: Pablo R. Seoane</li>
+                                    </ul>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Technical Rider
+
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="assets/pdf/TECHNICAL_RIDER_HUECO_Poliana_Lima_EN.pdf" target="_blank">Download
+                                                the Technical Rider</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="aqui_siempre">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Here, Always</h2>
+                        </div>
+
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <blockquote>
+                            <p class="text-left text-gray">'Poliana Lima’s work has the depth and reach to be both intellectually and emotionally engaging
+                                whilst simultaneously moving and uplifting. The four women performing 'Aqui Siempre' did
+                                so as individuals from different generations and traditions yet were inextricably linked.
+                                This is beautiful, intelligent work that avoids either 'show and tell' or obfuscation through
+                                a tightly crafted choreographic lyricism'.
+                            </p>
+                            <footer>
+                                <cite>Stuart Page - City of York Cultural Leaders Group / York International Mediale
+                                    Advisory Group</cite></footer>
+                        </blockquote>
+                    </div>
+                    <p>Brazilian born - Madrid based choreographer and performer, Poliana Lima, following an extended research
+                        and development process, has created ‘AQUI, SIEMPRE ‘/ ‘HERE, ALWAYS’ – an inter-generational, trans-cultural
+                        choreographic work bringing together four women from different generations, different countries and
+                        with different life stories and experiences and dance traditions.
+                    </p>
+                    <p>
+                        The choreography explores how between them, the dancers acknowledge, share and celebrate their individuality and distinctiveness
+                        whilst also finding a shared movement vocabulary that allows each individual to excel in the choreography
+                        that has been created by international award winning dance artist Poliana Lima.
+                    </p>
+                    <p>
+                        A key aspect of the choreographic process has been to identify what movement materials exist in each person’s body – a personal
+                        autobiographical map. From Argentinian popular dance to the finest European ballet tradition via
+                        contemporary fusion dance and cross over movement performance activity, these performers reveal their
+                        histories, sensibilities, doubts and aspirations exploring the relationships between memory, the
+                        present and the future.
+                    </p>
+                    <p>
+                        Each performer in turn and collectively asks themselves: How can I recognise the feelings and movement that are an integral
+                        part of who I am whilst at the same time unfixing this as a way of creating new possibilities for
+                        my body to open up and inhabit new shapes and sensations? This moving process produces new possibilities
+                        of being in lived time. The audience witnesses this intimate sharing of the materiality of the dancing
+                        body.
+                    </p>
+                    <p>
+                        In the act of dancing, I am reminded that it is possible to become re-integrated and whole, albeit it briefly – to be a person
+                        in this turning world. I turn and move with it.
+                    </p>
+                    <p>
+                        The body in motion and with emotion reveals the dynamic process of becoming and being – connecting in and across time – an
+                        archaeology of knowledge made present. In the dancing, the expansiveness of self, occupies times
+                        and spaces in ways that feels more real than in our daily pedestrianised life, where ‘being’ can
+                        sometimes feel at best, partial, fake, forced, fragile. Here ‘being’ is manufactured through endless
+                        acts of doing - like a mistaken identity – creating the sensation (and panic) that maybe I don’t
+                        know who I am or who I could be. ‘AQUI, SIEMPRE’ / ‘HERE, ALWAYS’ is a full length work for 4 female
+                        perfomers.
+
+                    </p>
+
+                </div>
+                <div class="separator-container">
+                        <div class="separator line-separator">&nbsp;</div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="article">
+                            <div class="col-md-6">
+                                    <div id="carousel-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-generic" data-slide-to="1"></li>
+                                                <li data-target="#carousel-generic" data-slide-to="2"></li>
+                                                <li data-target="#carousel-generic" data-slide-to="3"></li>
+                                            </ol>
+        
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/aqui_siempre.jpg" />
+                                                </div>
+                                                <div class="item">
+                                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/aqui_siempre2.jpg" />
+                                                </div>
+                                                <div class="item">
+                                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/aqui_siempre3.jpg" />
+                                                </div>
+                                                <div class="item">
+                                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/aqui_siempre_4.jpg" />
+                                                </div>
+                                            </div>
+        
+                                            <!-- Controls -->
+                                            <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+                                                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                      <span class="sr-only">Previous</span>
+                                                    </a>
+                                            <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+                                                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                      <span class="sr-only">Next</span>
+                                                    </a>
+                                        </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item active">CREDITS</li>
+                                    <li class="list-group-item">Direction and Choreography: Poliana Lima</li>
+                                    <li class="list-group-item">Performers: Mona Belizan, Christine Cloux, Carla de Diego y Irene Ducaju.</li>
+                                    <li class="list-group-item">Music: Vidal</li>
+                                    <li class="list-group-item">Lighting Designer: Pablo Seoane</li>
+                                    <li class="list-group-item">Video: Alexis Delgado and Álvaro Gomez Pidal</li>
+                                    <li class="list-group-item">Associate Producer: Steve Purcell</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="separator-container">
+                        <div class="separator line-separator">&nbsp;</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content" id="cuerpo_trapo">
+        <span class="icon-close">
+            <i class="pe-7s-close-circle"></i>
+        </span>
+        <div>
+            <div class="project-details">
+                <div class="container">
+                    <div class="project-title">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2>Body-Cloth</h2>
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator line-separator">&nbsp;</div>
+                        </div>
+                        <p>Body-cloth is a durational performance piece created within the framework of the European project
+                            Performing Gender. Questions around the (in)visibility of gender, social class and immigration
+                            are related to identity in this performance created for the Zagreb Contemporary Museum, Croatia.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="article">
+                                <div class="col-md-6">
+                                    <img alt="Poliana Lima" class="img-responsive" src="assets/img/projects/cuerpo_trapo.jpg" />
+                                </div>
+                                <div class="col-md-6">
+
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Artistic Team</li>
+                                        <li class="list-group-item">Conception, direction and choreography: Poliana Lima
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="AquiSiempreModal" tabindex="-1" role="dialog" aria-labelledby="AquiSiempreModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/288411152?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="HuecoModal" tabindex="-1" role="dialog" aria-labelledby="HuecoModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/233025771?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="FleshModal" tabindex="-1" role="dialog" aria-labelledby="FleshModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/174273229?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="AtavicoModal" tabindex="-1" role="dialog" aria-labelledby="AtavicoModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/158933621?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="lasCosasModal" tabindex="-1" role="dialog" aria-labelledby="lasCosasModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/212383660?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="oficinasModal" tabindex="-1" role="dialog" aria-labelledby="oficinasModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/214904103?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="HuecoModal1" tabindex="-1" role="dialog" aria-labelledby="HuecoModal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item nofocusvideo" src="https://player.vimeo.com/video/234003468?portrait=0" width="640"
+                        height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--   core js files    -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!--   file for adding vertical points where we activate the elements animation   -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!--  js library for devices recognition -->
+    <script src="assets/js/modernizr.js"></script>
+    <!--   file where we handle all the script from the Rubik page   -->
+    <script src="assets/js/poliana.js"></script>
+    <script src="assets/js/lazysizes.min.js" async=""></script>
+    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap.min.js"></script>
+</body>
+
+</html>
